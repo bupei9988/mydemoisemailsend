@@ -1,0 +1,63 @@
+{
+  "accounts": [
+    {
+      "name": "个人Gmail",
+      "email": "yourgmail@example.com",
+      "username": "yourgmail@example.com",
+      "password": "gmail_app_password_here",
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "use_ssl": false,
+      "use_starttls": true,
+      "from_name": "My Gmail"
+    },
+    {
+      "name": "公司Outlook",
+      "email": "me@company.com",
+      "username": "me@company.com",
+      "password": "company_smtp_password",
+      "smtp_server": "smtp.office365.com",
+      "smtp_port": 587,
+      "use_ssl": false,
+      "use_starttls": true,
+      "from_name": "Company Mail"
+    },
+    {
+      "name": "网易163",
+      "email": "user@163.com",
+      "username": "user@163.com",
+      "password": "163_smtp_authorization_code",
+      "smtp_server": "smtp.163.com",
+      "smtp_port": 465,
+      "use_ssl": true,
+      "use_starttls": false,
+      "from_name": "163 Mail"
+    },
+    {
+      "name": "QQ邮箱",
+      "email": "qq_user@qq.com",
+      "username": "qq_user@qq.com",
+      "password": "qq_smtp_authorization_code",
+      "smtp_server": "smtp.qq.com",
+      "smtp_port": 465,
+      "use_ssl": true,
+      "use_starttls": false,
+      "from_name": "QQ Mail"
+    },
+    {
+      "name": "阿里云企业邮箱",
+      "email": "employee@company.com",
+      "username": "employee@company.com",
+      "password": "ali_smtp_password",
+      "smtp_server": "smtp.mxhichina.com",
+      "smtp_port": 465,
+      "use_ssl": true,
+      "use_starttls": false,
+      "from_name": "Ali Cloud Mail"
+    }
+  ],
+  "logging": {
+    "logfile": "sendmail.log",
+    "level": "INFO"
+  }
+}
